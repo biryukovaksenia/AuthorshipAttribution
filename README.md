@@ -25,14 +25,14 @@ The dataset is divided into two subsets to enable a detailed and precise analysi
 
 ### Data Types
 
-| Column          | Data Type | Description                                                                                                                                       |
-|-----------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| Text_ID         | Integer   | A unique identifier for each text entry.                                                                                                          |
-| Sentence_Number | Integer   | A unique identifier for each sentence.                                                                                                            |
-| Language        | Character | Indicates the language of the sentence (e.g., "ru" or "eb").                                                                                      |
-| Sentence        | Character | The actual text of the sentence.                                                                                                                  |
-| Tokens          | Character | Tokens (words or punctuation) in the sentence.                                                                                                    |
-| Lemmas          | Character | Lemmas (base forms of words) corresponding to the tokens.                                                                                         |
-| Dependencies    | Character | Syntactic dependencies for each token.                                                                                                            |
-| Heads           | Character | A list of heads for each token, showing which word each token is dependent on. If the token is the root of the sentence, it is marked as 'ROOT'.  |
+| Column          | Data Type | Description                                                                                                                                      |
+|-----------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Text_ID         | Integer   | A unique identifier for each text entry.                                                                                                         |
+| Sentence_Number | Integer   | A unique identifier for each sentence.                                                                                                           |
+| Language        | Character | Indicates the language of the sentence (e.g., "ru" or "en").                                                                                     |
+| Sentence        | Character | The actual text of the sentence.                                                                                                                 |
+| Tokens          | Character | Tokens (words or punctuation) in the sentence.                                                                                                   |
+| Lemmas          | Character | Lemmas (base forms of words) corresponding to the tokens.                                                                                        |
+| Dependencies    | Character | Syntactic dependencies for each token.                                                                                                           |
+| Heads           | Character | A list of heads for each token, showing which word each token is dependent on. If the token is the root of the sentence, it is marked as 'ROOT'. |
 
