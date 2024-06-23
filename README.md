@@ -12,18 +12,7 @@ The dataset is divided into two subsets to enable a detailed and precise analysi
   - This subset includes the text of "Laughter in the Dark," which was originally written in Russian and later translated into English by Vladimir Nabokov.
   - Similar to the Lolita subset, each entry here includes the sentence in both languages and the syntactic dependencies.
 
-# The dataset includes:
-
-- Sentence_Number: An integer indicating the position of the sentence within the text.
-- Sentence: The sentence itself in string format.
-- Tokens: A list of tokens (words or punctuation) in the sentence.
-- Lemmas: A list of lemmas (base forms of words) corresponding to the tokens.
-- POS_Tags: A list of part-of-speech tags for each token.
-- Dependencies: A list of syntactic dependencies for each token.
-- Heads: A list of head words in the syntactic dependency structure.
-- Language: The language of the sentence.
-
-### Data Types
+# Data Types
 
 | Column          | Data Type | Description                                                                                                                                      |
 |-----------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------|
