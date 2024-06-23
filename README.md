@@ -5,11 +5,11 @@ The dataset aims to facilitate the comparative analysis of syntactic dependencie
 The dataset is divided into two subsets to enable a detailed and precise analysis:
 
 - Lolita Subset:
-  - This subset includes the original English text of "Lolita" by Vladimir Nabokov, followed by its translation into Russian by Dmitry Nabokov.
+  - This subset includes the original English text of "Lolita" by Vladimir Nabokov, followed by its translation into Russian by Nabokov.
   - Each entry contains the sentence in its respective language and the corresponding syntactic dependencies. 
 
 - Laughter in the Dark Subset: 
-  - This subset includes the text of "Laughter in the Dark," which was originally written in Russian and later translated into English by Vladimir Nabokov.
+  - This subset includes the text of "Laughter in the Dark," which was originally written in Russian and later translated into English by Nabokov.
   - Similar to the Lolita subset, each entry here includes the sentence in both languages and the syntactic dependencies.
 
 # Data Types
